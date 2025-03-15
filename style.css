@@ -85,6 +85,10 @@ h3 {
   cursor: pointer;
 }
 
+.toggle .fa-bars{
+  color: var(--primary-color);
+}
+
 /* Header Section */
 
 .hero {
