@@ -1,3 +1,11 @@
+// navbar
+const toggleBtn = document.getElementById("toggleBtn");
+const navContainer = document.getElementById("navContainer");
+
+toggleBtn.addEventListener("click", () => {
+  navContainer.classList.toggle("active");
+});
+
 //review slider
 let swiper = new Swiper(".reviews-container", {
   slidesPerView: 1,
