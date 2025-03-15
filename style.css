@@ -562,7 +562,6 @@ textarea {
 @media screen and (max-width: 768px) {
   .navbar{
     justify-content: space-between;
-    border: 2px solid;
     padding: 5px 12px;
   }
   .nav-container {
